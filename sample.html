@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Online Store</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>School supplies for international students</h1>
+		<nav> <!-- The <nav> element is intended only for major blocks of navigation links.This is not much necessary in this code, i only put nav to know which section has linking address(this could be useful for long code)-->
+			<ul> <!--unorder list-->
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section class="products">
+			<h2>Featured Products</h2>
+			<ul> <!--unorder list-->
+				<li>
+					<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIPERUSEBIWExAQGBgXFhASEBEXGBcRFRcbFxkXFhgZHighGBolGxMVITIhJSkrMDAuFyIzODMsNygtLysBCgoKDQ0OFhAQFSsaFiIrKysrKy0tLSstLSsrKystLS0rKzc3LCstKy0rNzcrKy0tODctKy0tLSs3LS0rKysrLf/AABEIALEBHAMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYBBAcDAgj/xAA/EAACAgECBAQCBwYEBQUAAAABAgADEQQhBRIxQQYTUWEiMiNCcYGRobEHFFJicsEzgqLwFRZz0dIkQ0RTsv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAABEUEh/9oADAMBAAIRAxEAPwDhsREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBETb4UitfUro1iM6A1p8zgsMop7E9M+8DUidO4ppNMwJfRfuio9aclaVOLHY4OXOSMcyg4ON+5E5jAREQEREBERAREQEREBERAREQEREBETIGekDETdo4RqLPkotb+mpz+glv8IeFdejkvws2o3Ll76wBWAfn+PtvkjbOO0ChzZo4fdYAUqsYMCQVrY5C/MRgb47zsPCeBLp7LG1r0eWvx5o09BTYbnmO+QASSW2yes9dfxWvUqtfDmD/ALyVDPcueVFP1BgchO2c9gDkHlyHEmQjqCO247jqJ8z9FcM8I8NeotqDzhrHwrPkclbtWh37kLze3OR2m4vCuC09Kk29iYH5tWlj0Un7FM+/3Kz+Bh9qkT9JrxHhSfLQn3VD+81uIcc0R8sJph8+f8NPmVHZM/51U/dA/PtnBtQtZsalxWOrcvT7fQe81aNM9m1aM59FUn9Jf/DHFtOwWy22mq4Zy+ofUudunLXWQMffucmWL/nLRpu/EvMA/wDbq4fqiDjt9PaRj8IHJP8Aht2/0T5U4I5GyD0xjr2mxp/D+qsKhaHy5wvMOUE9cAtgdpfLP2ssLHenS1jnC9egC56L0G7Ek98+wmrd4l13GXp+iAp09ocsmwHTIP3dveBz26pkYo4KspIKkYII2IIn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yEKMbshGOWyzYEj+J3H2/ZK/N0NqNUxCiy1nOeRQ7ZYn+Ed8yc0P7P8AiFu5o8pf4rmCD895BVpv067bDdR09yBt/eSHGfCtumsqqFlV1t+fhos5uVgejE4A2wc9MZ9DPDj3DF0gSo73YDO+diGGQE7FcYw3fftKIksfXr1mDE2eH+Tz/wDqOfywCcVBeZm7LltlB/iwcehgY4foLdTYKqK2ssboiKSTJLxN4bs4ca0usrNti8z0pYGao5+V8bDIwfx++98K8VcNt0x01Vl3CHsCh3qVLK2YKFyXA81QcDO/vKtxXwJqVVrtMya7TgnN+lfnwc78yfMD3zjHvIKlEywwcHYjsfWYlCIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICb+r4tbff5+obz7O/m5IOOgwCMKPQbTQiBPJ4x1qKUrtFSEYKVVVIMYx9VfQyL1XErrtrbrLB6PYzDb2JmrEYttr0otKHI9wQc4IOxBx2mdReXOT0AwFyxCqOgGSTieUQif4JxPR11GrVaPziW5vOWxlcDAHKMEDl2zvncmbD6Thdv+HffQx+raiWKM/wAw5cfnKxECb1PhtxvRbTqR28mz4j7BGAYn2AJkVVdZS2UZq3GQSpZWHqNt54zMi+ceuq1L2tz2MWc4yzbk49T3PuZ4xEqEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQERED/2Q==" alt="Product 1">
+					<h3>black AK-47</h3>
+					<p>$20</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="https://c4.wallpaperflare.com/wallpaper/326/216/969/desert-eagle-gun-pistol-wallpaper-preview.jpg" alt="Product 2">
+					<h3>Deagle Desert</h3>
+					<p>$20</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="https://images3.alphacoders.com/262/thumb-1920-262245.jpg" alt="Product 3">
+					<h3>The Remington 870 </h3>
+					<p>$20</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWbOgy6YJQB6vnqbKzeIjVqjj1aAp3181WzGVZrlA0Gc0tlF8B3LA35rKKn4WKbqPpCo&usqp=CAU" alt="Product 3">
+					<h3>Suppressor</h3>
+					<p>$20</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/417jPGKgM8L._AC_.jpg" alt="Product 3">
+					<h3>Red Dot</h3>
+					<p>$20</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="https://i.ebayimg.com/images/g/PR8AAOSwKz5inQ8R/s-l500.jpg" alt="Product 3">
+					<h3>Hidden Hostler</h3>
+					<p>$20</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="https://ae01.alicdn.com/kf/H88b5ff688dae426e932cc250a517471fr/36-47-Inch-Rifle-Bag-Double-Gun-Case-Backpack-for-M4a1-AR15-AK47-Airsoft-Portable-Bag.jpg" alt="Product 3">
+					<h3>Rifle's Bag</h3>
+					<p>$20</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="https://cdn11.bigcommerce.com/s-4iwpyceis0/images/stencil/1280x1280/products/610/3398/wraparound-body-armor-tactical-vest-IIIA-qtr__59098.1567096988.jpg?c=2" alt="Product 3">
+					<h3>Bulletproof Armor</h3>
+					<p>$20</p>
+					<button>Add to Cart</button>
+				</li>
+			</ul>
+		</section>
+		
+		<section>
+			<h2>About Us</h2>
+			<p>We sell legal equipments for students who want to improve their grades in school :> </p>
+		</section>
+	</main>
+	
+	<footer>
+		<h1>HOPE YOU ENJOY STUDYING :>>>>>>>>>>></h1>
+	</footer>
+</body>
+</html>
